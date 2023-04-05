@@ -2,7 +2,8 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1",
+      "description" : "test"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -20,7 +21,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "60def2a0-b42b-11ec-a28d-9bd74701e0b1"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -36,19 +40,6 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
-    },
-    "type" : "Created",
-    "typeGroup" : "COMMON"
-  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
