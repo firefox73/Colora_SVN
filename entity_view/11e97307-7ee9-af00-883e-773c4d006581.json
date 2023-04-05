@@ -1,0 +1,35 @@
+{
+  "entityType" : "ENTITY_VIEW",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "11e938f3-d783-5e70-bee9-753ebff21fde"
+    },
+    "endTimeMs" : 1557475200000,
+    "entityId" : {
+      "entityType" : "DEVICE",
+      "id" : "11e938f3-b883-bb00-bee9-753ebff21fde"
+    },
+    "externalId" : null,
+    "keys" : {
+      "attributes" : {
+        "cs" : [ "build_ver" ],
+        "sh" : [ "dev_id" ],
+        "ss" : [ "rssi" ]
+      },
+      "timeseries" : [ "humidity", "temperature" ]
+    },
+    "name" : "test entity",
+    "startTimeMs" : 1557439200000,
+    "type" : "new-entitw-view-type",
+    "additionalInfo" : null,
+    "id" : {
+      "entityType" : "ENTITY_VIEW",
+      "id" : "11e97307-7ee9-af00-883e-773c4d006581"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

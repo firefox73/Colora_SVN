@@ -1,0 +1,122 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Regola che trasforma una telemetria Ricevuta dal GTW che integra il downlink attraverso telemetria"
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "6a0e36f0-5e04-11ed-96ab-9f893399452f"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f4a6ac30-5e03-11ed-96ab-9f893399452f"
+    },
+    "name" : "E-GTW_Downlink",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 2,
+      "type" : "True"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 2,
+      "type" : "Post telemetry"
+    } ],
+    "firstNodeIndex" : 3,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 595,
+        "layoutY" : 54
+      },
+      "configuration" : {
+        "messageNames" : [ "cmd" ],
+        "metadataNames" : [ ],
+        "checkAllKeys" : true
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "23e9fa10-5e04-11ed-96ab-9f893399452f"
+      },
+      "name" : "check CMD Downilnk",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbCheckMessageNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1181,
+        "layoutY" : 159
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 60
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "23ea2120-5e04-11ed-96ab-9f893399452f"
+      },
+      "name" : "RPC Call Request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 861,
+        "layoutY" : 158
+      },
+      "configuration" : {
+        "jsScript" : "//metadata.deviceName=\"SN-002\";\n//metadata.deviceType=\"Thermometer\";\nmetadata.oneway= \"true\";\nmsgType='RPC_CALL_FROM_SERVER_TO_DEVICE';\n//msgType='ATTRIBUTES_UPDATED';\nmsg.params=\"fromtodevice\"+msg.params;\n//metadata.requestId= \"61\";\n//metadata.sessionId = \"8c495ec5-d114-49ca-a1e9-6083c3c8c5ab\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "23ea4830-5e04-11ed-96ab-9f893399452f"
+      },
+      "name" : "RPC REQUEST TO DEVICE",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 293,
+        "layoutY" : 148
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a0e36f0-5e04-11ed-96ab-9f893399452f"
+      },
+      "name" : "Tltry from Integration to E-GTW",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

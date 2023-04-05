@@ -1,0 +1,155 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "49c0b2d0-b768-11ec-a511-81ae2df04cee",
+      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "d424f8b0-b767-11ec-a511-81ae2df04cee"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "49c0b2d0-b768-11ec-a511-81ae2df04cee"
+    },
+    "label" : null,
+    "name" : "SN-002",
+    "softwareId" : null,
+    "type" : "Thermometer"
+  },
+  "credentials" : {
+    "credentialsId" : "bJBDJDTuOJmolxh0avqq",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "49c0b2d0-b768-11ec-a511-81ae2df04cee"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 7.8,
+      "jsonValue" : null,
+      "key" : "FirmwareVersion",
+      "lastUpdateTs" : 1667056357703,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1667759303708,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fwStateIsSynced",
+      "lastUpdateTs" : 1667059246511,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1667759303708,
+      "longValue" : 1667759303707,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1667758665085,
+      "longValue" : 1667758665030,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1667758635626,
+      "longValue" : 1667758635626,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1667758965086,
+      "longValue" : 1667758965086,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "method",
+      "lastUpdateTs" : 1667058860677,
+      "longValue" : null,
+      "strValue" : "setValue"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "params",
+      "lastUpdateTs" : 1667058860677,
+      "longValue" : null,
+      "strValue" : "fromtodeviceCS-API_GTW_TEST"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "update",
+      "lastUpdateTs" : 1667059246511,
+      "longValue" : null,
+      "strValue" : "toserver3"
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "FirmwareVersion",
+      "lastUpdateTs" : 1667056357668,
+      "longValue" : null,
+      "strValue" : "7.8"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "uploadFrequency",
+      "lastUpdateTs" : 1651518292863,
+      "longValue" : null,
+      "strValue" : "200"
+    } ]
+  }
+}

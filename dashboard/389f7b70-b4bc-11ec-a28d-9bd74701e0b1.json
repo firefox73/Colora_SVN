@@ -1,0 +1,1091 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "widgets" : {
+        "bd20ff09-9a30-7eda-ffbe-ef94a22930fe" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "timeseries_table",
+          "type" : "timeseries",
+          "title" : "Timeseries table",
+          "sizeX" : 24,
+          "sizeY" : 11,
+          "row" : 0,
+          "col" : 2,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f123b471-cf15-a977-8f0c-11fb620aa841",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "B_pwr",
+                "type" : "timeseries",
+                "label" : "P_Battery",
+                "color" : "#ffc107",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.7739988728150019,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "L_pwr",
+                "type" : "timeseries",
+                "label" : "P_Load",
+                "color" : "#607d8b",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.8639214112197727,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "G_pwr",
+                "type" : "timeseries",
+                "label" : "P_Grid",
+                "color" : "#9c27b0",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.6975720252163286,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "B_SoC",
+                "type" : "timeseries",
+                "label" : "SoC_Battery",
+                "color" : "#8bc34a",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.137676508390135,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "B_volt",
+                "type" : "timeseries",
+                "label" : "B_volt",
+                "color" : "#607d8b",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.7586398366085016,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "B_curr",
+                "type" : "timeseries",
+                "label" : "B_curr",
+                "color" : "#9c27b0",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.16240620170041176
+              }, {
+                "name" : "PV_pwr",
+                "type" : "timeseries",
+                "label" : "PV_pwr",
+                "color" : "#8bc34a",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.14846350315857437
+              }, {
+                "name" : "ES_pwr",
+                "type" : "timeseries",
+                "label" : "ES_pwr",
+                "color" : "#3f51b5",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.9963851577655478
+              }, {
+                "name" : "E_day",
+                "type" : "timeseries",
+                "label" : "E_day",
+                "color" : "#e91e63",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.7200180546026143
+              }, {
+                "name" : "E_dayInG",
+                "type" : "timeseries",
+                "label" : "E_dayInG",
+                "color" : "#ffeb3b",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.22945237824701614
+              }, {
+                "name" : "E_dayOutG",
+                "type" : "timeseries",
+                "label" : "E_dayOutG",
+                "color" : "#03a9f4",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.7681969099103255
+              }, {
+                "name" : "E_dayOutG",
+                "type" : "timeseries",
+                "label" : "E_dayOutG 2",
+                "color" : "#ff9800",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.8331671389811235
+              }, {
+                "name" : "E_dayL",
+                "type" : "timeseries",
+                "label" : "E_dayL",
+                "color" : "#673ab7",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.8015042031393539
+              }, {
+                "name" : "E_totH",
+                "type" : "timeseries",
+                "label" : "E_totH",
+                "color" : "#cddc39",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.9391681377708452
+              }, {
+                "name" : "E_totL",
+                "type" : "timeseries",
+                "label" : "E_totL",
+                "color" : "#009688",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.12183481415907005
+              }, {
+                "name" : "E_totInGH",
+                "type" : "timeseries",
+                "label" : "E_totInGH",
+                "color" : "#795548",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.8284809940316007
+              }, {
+                "name" : "E_totInGL",
+                "type" : "timeseries",
+                "label" : "E_totInGL",
+                "color" : "#00bcd4",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.21151077147798103
+              }, {
+                "name" : "E_totOutGH",
+                "type" : "timeseries",
+                "label" : "E_totOutGH",
+                "color" : "#ff5722",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.03245037418412833
+              }, {
+                "name" : "E_totOutGL",
+                "type" : "timeseries",
+                "label" : "E_totOutGL",
+                "color" : "#9e9e9e",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.734020553181885
+              }, {
+                "name" : "E_totLH",
+                "type" : "timeseries",
+                "label" : "E_totLH",
+                "color" : "#2962ff",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.22817651953583662
+              } ]
+            }, {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "46d2f728-23c9-15e1-5f2c-c139d6196a26",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "P Meter Inverter",
+                "color" : "#00c853",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.04525385739157706,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            }, {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "3d293735-e4a5-dd13-13b4-0cd1dbbf5044",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "P Meter Enel",
+                "color" : "#d50000",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.40606025192629513,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            }, {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "2c2fcc84-d0e9-f919-97f8-7dc0e4688e6b",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "P Meter Tavernetta",
+                "color" : "#ffab00",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.6192439045369798,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "TotEnA",
+                "type" : "timeseries",
+                "label" : "TotEnA",
+                "color" : "#455a64",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.9420296892748028
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 900000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "showTimestamp" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 20
+            },
+            "title" : "Timeseries table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "widgetStyle" : { },
+            "actions" : { }
+          },
+          "id" : "bd20ff09-9a30-7eda-ffbe-ef94a22930fe"
+        },
+        "8f416336-41ee-59f6-2d94-78de8d43d083" : {
+          "isSystemType" : true,
+          "bundleAlias" : "charts",
+          "typeAlias" : "basic_timeseries",
+          "type" : "timeseries",
+          "title" : "New widget",
+          "sizeX" : 8,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "46d2f728-23c9-15e1-5f2c-c139d6196a26",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "Meter Quadro Inverter",
+                "color" : "#2196f3",
+                "settings" : {
+                  "excludeFromStacking" : false,
+                  "hideDataByDefault" : false,
+                  "disableDataHiding" : false,
+                  "removeFromLegend" : false,
+                  "showLines" : true,
+                  "fillLines" : false,
+                  "showPoints" : false,
+                  "showPointShape" : "circle",
+                  "pointShapeFormatter" : "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                  "showPointsLineWidth" : 5,
+                  "showPointsRadius" : 3,
+                  "showSeparateAxis" : false,
+                  "axisPosition" : "left",
+                  "thresholds" : [ {
+                    "thresholdValueSource" : "predefinedValue"
+                  } ],
+                  "comparisonSettings" : {
+                    "showValuesForComparison" : true
+                  }
+                },
+                "_hash" : 0.31714899672154573,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            }, {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "3d293735-e4a5-dd13-13b4-0cd1dbbf5044",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "Meter Quadro Enel",
+                "color" : "#4caf50",
+                "settings" : {
+                  "excludeFromStacking" : false,
+                  "hideDataByDefault" : false,
+                  "disableDataHiding" : false,
+                  "removeFromLegend" : false,
+                  "showLines" : true,
+                  "fillLines" : false,
+                  "showPoints" : false,
+                  "showPointShape" : "circle",
+                  "pointShapeFormatter" : "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                  "showPointsLineWidth" : 5,
+                  "showPointsRadius" : 3,
+                  "showSeparateAxis" : false,
+                  "axisPosition" : "left",
+                  "thresholds" : [ {
+                    "thresholdValueSource" : "predefinedValue"
+                  } ],
+                  "comparisonSettings" : {
+                    "showValuesForComparison" : true
+                  }
+                },
+                "_hash" : 0.21139259032301094,
+                "units" : null,
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            }, {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f123b471-cf15-a977-8f0c-11fb620aa841",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "L_pwr",
+                "type" : "timeseries",
+                "label" : "L_pwr",
+                "color" : "#f44336",
+                "settings" : {
+                  "excludeFromStacking" : false,
+                  "hideDataByDefault" : false,
+                  "disableDataHiding" : false,
+                  "removeFromLegend" : false,
+                  "showLines" : true,
+                  "fillLines" : false,
+                  "showPoints" : false,
+                  "showPointShape" : "circle",
+                  "pointShapeFormatter" : "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                  "showPointsLineWidth" : 5,
+                  "showPointsRadius" : 3,
+                  "tooltipValueFormatter" : "",
+                  "showSeparateAxis" : false,
+                  "axisTitle" : "",
+                  "axisPosition" : "left",
+                  "axisTicksFormatter" : "",
+                  "thresholds" : [ {
+                    "thresholdValueSource" : "predefinedValue"
+                  } ],
+                  "comparisonSettings" : {
+                    "showValuesForComparison" : true,
+                    "comparisonValuesLabel" : "",
+                    "color" : ""
+                  }
+                },
+                "_hash" : 0.8496458732485036
+              }, {
+                "name" : "B_pwr",
+                "type" : "timeseries",
+                "label" : "B_pwr",
+                "color" : "#ffc107",
+                "settings" : {
+                  "excludeFromStacking" : false,
+                  "hideDataByDefault" : false,
+                  "disableDataHiding" : false,
+                  "removeFromLegend" : false,
+                  "showLines" : true,
+                  "fillLines" : false,
+                  "showPoints" : false,
+                  "showPointShape" : "circle",
+                  "pointShapeFormatter" : "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                  "showPointsLineWidth" : 5,
+                  "showPointsRadius" : 3,
+                  "tooltipValueFormatter" : "",
+                  "showSeparateAxis" : false,
+                  "axisTitle" : "",
+                  "axisPosition" : "left",
+                  "axisTicksFormatter" : "",
+                  "thresholds" : [ {
+                    "thresholdValueSource" : "predefinedValue"
+                  } ],
+                  "comparisonSettings" : {
+                    "showValuesForComparison" : true,
+                    "comparisonValuesLabel" : "",
+                    "color" : ""
+                  }
+                },
+                "_hash" : 0.33450713468147575
+              }, {
+                "name" : "G_pwr",
+                "type" : "timeseries",
+                "label" : "G_pwr",
+                "color" : "#607d8b",
+                "settings" : {
+                  "excludeFromStacking" : false,
+                  "hideDataByDefault" : false,
+                  "disableDataHiding" : false,
+                  "removeFromLegend" : false,
+                  "showLines" : true,
+                  "fillLines" : false,
+                  "showPoints" : false,
+                  "showPointShape" : "circle",
+                  "pointShapeFormatter" : "var size = radius * Math.sqrt(Math.PI) / 2;\nctx.moveTo(x - size, y - size);\nctx.lineTo(x + size, y + size);\nctx.moveTo(x - size, y + size);\nctx.lineTo(x + size, y - size);",
+                  "showPointsLineWidth" : 5,
+                  "showPointsRadius" : 3,
+                  "tooltipValueFormatter" : "",
+                  "showSeparateAxis" : false,
+                  "axisTitle" : "",
+                  "axisPosition" : "left",
+                  "axisTicksFormatter" : "",
+                  "thresholds" : [ {
+                    "thresholdValueSource" : "predefinedValue"
+                  } ],
+                  "comparisonSettings" : {
+                    "showValuesForComparison" : true,
+                    "comparisonValuesLabel" : "",
+                    "color" : ""
+                  }
+                },
+                "_hash" : 0.6260532668137863
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "shadowSize" : 4,
+              "fontColor" : "#545454",
+              "fontSize" : 10,
+              "xaxis" : {
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "yaxis" : {
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "grid" : {
+                "color" : "#545454",
+                "tickColor" : "#DDDDDD",
+                "verticalLines" : true,
+                "horizontalLines" : true,
+                "outlineWidth" : 1
+              },
+              "stack" : false,
+              "tooltipIndividual" : false,
+              "timeForComparison" : "months",
+              "xaxisSecond" : {
+                "axisPosition" : "top",
+                "showLabels" : true
+              }
+            },
+            "title" : "Andamento delle Potenze",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "showLegend" : true,
+            "legendConfig" : {
+              "direction" : "column",
+              "position" : "bottom",
+              "sortDataKeys" : false,
+              "showMin" : false,
+              "showMax" : false,
+              "showAvg" : true,
+              "showTotal" : false
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "8f416336-41ee-59f6-2d94-78de8d43d083"
+        },
+        "aa1b03e2-624c-1d57-0e0a-28eaff38c5c4" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "attributes_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f123b471-cf15-a977-8f0c-11fb620aa841",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "B_pwr",
+                "type" : "timeseries",
+                "label" : "Battery Power",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.21528788943418786,
+                "units" : "[kW]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "L_pwr",
+                "type" : "timeseries",
+                "label" : "Load Power",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.5143753979048264,
+                "units" : "[kW]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "G_pwr",
+                "type" : "timeseries",
+                "label" : "Grid Power",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.5673583277679577,
+                "units" : "[kW]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "B_SoC",
+                "type" : "timeseries",
+                "label" : "State of Charge",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.602586741720212,
+                "units" : "%",
+                "decimals" : 0,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "B_curr",
+                "type" : "timeseries",
+                "label" : "Battery Current",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.673960144927856,
+                "units" : "[A]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "B_temp",
+                "type" : "timeseries",
+                "label" : "Battery Temperature",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.8381065010368862,
+                "units" : "[°C]",
+                "decimals" : 1,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "PV_pwr",
+                "type" : "timeseries",
+                "label" : "PV Power",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.39388319823274864,
+                "units" : "[kW]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Inverter ZCS",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "aa1b03e2-624c-1d57-0e0a-28eaff38c5c4"
+        },
+        "0a9f2149-f997-f00e-42f1-5e346cf45e07" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "attributes_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "46d2f728-23c9-15e1-5f2c-c139d6196a26",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "Power",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.39388319823274864,
+                "units" : "[W]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Meter Quadro Inverter",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "0a9f2149-f997-f00e-42f1-5e346cf45e07"
+        },
+        "8c2fae77-77f1-8389-f740-3f2f0f977c99" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "attributes_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "3d293735-e4a5-dd13-13b4-0cd1dbbf5044",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "Power",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.39388319823274864,
+                "units" : "[W]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Meter Quadro Enel",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "8c2fae77-77f1-8389-f740-3f2f0f977c99"
+        },
+        "ff44cd26-4b92-00aa-66cd-2393d40f51fe" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "attributes_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "2c2fcc84-d0e9-f919-97f8-7dc0e4688e6b",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "P",
+                "type" : "timeseries",
+                "label" : "Power",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.39388319823274864,
+                "units" : "[W]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "TotEnA",
+                "type" : "timeseries",
+                "label" : "Energia Attiva",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.16688113566057905,
+                "units" : "[kW]",
+                "decimals" : 2,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "Meter Tavernetta",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "ff44cd26-4b92-00aa-66cd-2393d40f51fe"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "ENERGY MODULE",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "bd20ff09-9a30-7eda-ffbe-ef94a22930fe" : {
+                  "sizeX" : 21,
+                  "sizeY" : 11,
+                  "row" : 13,
+                  "col" : 0
+                },
+                "8f416336-41ee-59f6-2d94-78de8d43d083" : {
+                  "sizeX" : 21,
+                  "sizeY" : 9,
+                  "row" : 4,
+                  "col" : 0
+                },
+                "aa1b03e2-624c-1d57-0e0a-28eaff38c5c4" : {
+                  "sizeX" : 7,
+                  "sizeY" : 4,
+                  "row" : 0,
+                  "col" : 0
+                },
+                "0a9f2149-f997-f00e-42f1-5e346cf45e07" : {
+                  "sizeX" : 7,
+                  "sizeY" : 2,
+                  "row" : 0,
+                  "col" : 7
+                },
+                "8c2fae77-77f1-8389-f740-3f2f0f977c99" : {
+                  "sizeX" : 7,
+                  "sizeY" : 2,
+                  "row" : 2,
+                  "col" : 7
+                },
+                "ff44cd26-4b92-00aa-66cd-2393d40f51fe" : {
+                  "sizeX" : 7,
+                  "sizeY" : 4,
+                  "row" : 0,
+                  "col" : 14
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "color" : "rgba(0,0,0,0.870588)",
+                "columns" : 24,
+                "backgroundSizeMode" : "100%",
+                "margin" : 10
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "f123b471-cf15-a977-8f0c-11fb620aa841" : {
+          "id" : "f123b471-cf15-a977-8f0c-11fb620aa841",
+          "alias" : "INVERTER_ZCS",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "f5d16990-b36a-11ec-a28d-9bd74701e0b1"
+            }
+          }
+        },
+        "46d2f728-23c9-15e1-5f2c-c139d6196a26" : {
+          "id" : "46d2f728-23c9-15e1-5f2c-c139d6196a26",
+          "alias" : "METER02 - INVERTER",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "d7888fc0-b42a-11ec-a28d-9bd74701e0b1"
+            }
+          }
+        },
+        "3d293735-e4a5-dd13-13b4-0cd1dbbf5044" : {
+          "id" : "3d293735-e4a5-dd13-13b4-0cd1dbbf5044",
+          "alias" : "METER03 - ENEL",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "30ed0de0-b42e-11ec-a28d-9bd74701e0b1"
+            }
+          }
+        },
+        "2c2fcc84-d0e9-f919-97f8-7dc0e4688e6b" : {
+          "id" : "2c2fcc84-d0e9-f919-97f8-7dc0e4688e6b",
+          "alias" : "METER04 - TAVERNETTA",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "fdcfe890-b42a-11ec-a28d-9bd74701e0b1"
+            }
+          }
+        }
+      },
+      "timewindow" : {
+        "realtime" : {
+          "interval" : 1800000,
+          "timewindowMs" : 86400000
+        },
+        "aggregation" : {
+          "type" : "NONE",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      },
+      "filters" : { },
+      "description" : "Fox Home"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "389f7b70-b4bc-11ec-a28d-9bd74701e0b1"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "ENERGY METER MODULE - FOX HOME",
+    "title" : "ENERGY METER MODULE - FOX HOME"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

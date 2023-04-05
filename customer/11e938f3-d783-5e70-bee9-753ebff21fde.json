@@ -1,0 +1,27 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Test Integrazione Coing"
+    },
+    "address" : "Via del toro",
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "email" : "foxuser@coing.it",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "11e938f3-d783-5e70-bee9-753ebff21fde"
+    },
+    "name" : "FoxCustomer",
+    "phone" : null,
+    "state" : null,
+    "title" : "FoxCustomer",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

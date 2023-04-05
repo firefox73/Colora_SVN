@@ -1,9 +1,7 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : {
-      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
-    },
+    "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
@@ -18,21 +16,21 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "60def2a0-b42b-11ec-a28d-9bd74701e0b1"
+      "id" : "d424f8b0-b767-11ec-a511-81ae2df04cee"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "d42a76f0-b767-11ec-a511-81ae2df04cee"
     },
     "label" : null,
-    "name" : "Eastron",
+    "name" : "SN-001",
     "softwareId" : null,
-    "type" : "meterEast"
+    "type" : "Thermometer"
   },
   "credentials" : {
-    "credentialsId" : "MIyIen1lJy4Dd4pnIjCu",
+    "credentialsId" : "gmoaUMDUIpdUyJDwuKSd",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -44,7 +42,7 @@
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "d42a76f0-b767-11ec-a511-81ae2df04cee"
     },
     "type" : "Created",
     "typeGroup" : "COMMON"
@@ -55,7 +53,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1667844203707,
+      "lastUpdateTs" : 1649443648675,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -63,42 +61,42 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1667844203707,
-      "longValue" : 1667844203707,
+      "lastUpdateTs" : 1649443648675,
+      "longValue" : 1649443648674,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1667843574098,
-      "longValue" : 1667843573600,
+      "lastUpdateTs" : 1649443029367,
+      "longValue" : 1649443019325,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1667843535154,
-      "longValue" : 1667843535154,
+      "lastUpdateTs" : 1649441711104,
+      "longValue" : 1649441711104,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1667843874097,
-      "longValue" : 1667843874097,
+      "lastUpdateTs" : 1649443134311,
+      "longValue" : 1649443134311,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
-      "key" : "n_phase",
-      "lastUpdateTs" : 1667759324093,
+      "key" : "FirmwareVersion",
+      "lastUpdateTs" : 1650650128940,
       "longValue" : null,
-      "strValue" : "1"
+      "strValue" : "2.99"
     } ]
   }
 }

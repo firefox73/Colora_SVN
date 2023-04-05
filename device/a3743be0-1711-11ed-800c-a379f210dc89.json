@@ -1,0 +1,197 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "d49b0f70-1714-11ed-800c-a379f210dc89"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "a3743be0-1711-11ed-800c-a379f210dc89"
+    },
+    "label" : "",
+    "name" : "ESP32",
+    "softwareId" : null,
+    "type" : "ESP32_OTA"
+  },
+  "credentials" : {
+    "credentialsId" : "Y6I81Tc3LvAfusXNUKrw",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1680101726380,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "currentFwVer",
+      "lastUpdateTs" : 1680099879822,
+      "longValue" : null,
+      "strValue" : "v1.2"
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fwStateIsSynced",
+      "lastUpdateTs" : 1680103499185,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "gw",
+      "lastUpdateTs" : 1680100870627,
+      "longValue" : null,
+      "strValue" : "192.168.1.1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1680101726380,
+      "longValue" : 1680101726380,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "ip",
+      "lastUpdateTs" : 1680100870627,
+      "longValue" : null,
+      "strValue" : "192.168.1.160"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1680101122939,
+      "longValue" : 1680101119931,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1680100399302,
+      "longValue" : 1680100399302,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1680101119945,
+      "longValue" : 1680101119945,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastOtaStartedOn",
+      "lastUpdateTs" : 1680103499175,
+      "longValue" : 1680103499564,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastTargetFwUrl",
+      "lastUpdateTs" : 1680103499175,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/firefox73/fwupdate/main/CoingIoTv2-v1.2.bin"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastTargetFwVer",
+      "lastUpdateTs" : 1680103499175,
+      "longValue" : null,
+      "strValue" : "v1.2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "mac",
+      "lastUpdateTs" : 1680100870627,
+      "longValue" : null,
+      "strValue" : "30:AE:A4:04:D2:20"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "ssid",
+      "lastUpdateTs" : 1680100870627,
+      "longValue" : null,
+      "strValue" : "tim"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "targetFwUrl",
+      "lastUpdateTs" : 1680103499185,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/firefox73/fwupdate/main/CoingIoTv2-v1.2.bin"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "targetFwVer",
+      "lastUpdateTs" : 1680103499185,
+      "longValue" : null,
+      "strValue" : "v1.2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "urc",
+      "lastUpdateTs" : 1680100870627,
+      "longValue" : 0,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "targetFwUrl",
+      "lastUpdateTs" : 1680103499162,
+      "longValue" : null,
+      "strValue" : "https://raw.githubusercontent.com/firefox73/fwupdate/main/CoingIoTv2-v1.2.bin"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "targetFwVer",
+      "lastUpdateTs" : 1680103499162,
+      "longValue" : null,
+      "strValue" : "v1.2"
+    } ]
+  }
+}

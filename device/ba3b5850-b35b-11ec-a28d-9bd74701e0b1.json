@@ -1,0 +1,186 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "description" : "test thingsboard gateway su asus VM virtualboax",
+      "lastConnectedGateway" : "8db43b90-5d41-11ed-96ab-9f893399452f"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "ab35e6f0-5e04-11ed-96ab-9f893399452f"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "label" : "test thingsboard gateway",
+    "name" : "API_GTW_TEST",
+    "softwareId" : null,
+    "type" : "E-GTW_Downlink"
+  },
+  "credentials" : {
+    "credentialsId" : "ZnIbfJlzvFWl9fh0Kt2p",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "8db43b90-5d41-11ed-96ab-9f893399452f"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "Uplink",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c7ed4de0-b2b7-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d42a76f0-b767-11ec-a511-81ae2df04cee"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e42f34e0-b76d-11ec-a511-81ae2df04cee"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "49c0b2d0-b768-11ec-a511-81ae2df04cee"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "512d4770-5a0d-11ed-96ab-9f893399452f"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "DA_ASSET",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1667929226380,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1667929226380,
+      "longValue" : 1667929226380,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1667928625946,
+      "longValue" : 1667928625154,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1667928302762,
+      "longValue" : 1667928302762,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1667928625160,
+      "longValue" : 1667928625160,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "RemoteLoggingLevel",
+      "lastUpdateTs" : 1649428716025,
+      "longValue" : null,
+      "strValue" : "DEBUG"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "update",
+      "lastUpdateTs" : 1649453157678,
+      "longValue" : null,
+      "strValue" : "Aggiornamento attributo"
+    } ]
+  }
+}

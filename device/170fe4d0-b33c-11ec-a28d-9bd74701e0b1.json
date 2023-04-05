@@ -1,0 +1,145 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "description" : "test innv zcs + 2MEastron"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "16e68ae0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "label" : "MAC:24D7EB51AF44",
+    "name" : "GTW_WiFi_MODBUS",
+    "softwareId" : null,
+    "type" : "RPC_devices2device"
+  },
+  "credentials" : {
+    "credentialsId" : "B3gBSPHTblpFZbvfeg6i",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c6aa8e10-b830-11ec-a511-81ae2df04cee"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d7888fc0-b42a-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5d16990-b36a-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fdcfe890-b42a-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "15488cb0-c26e-11ec-9272-a52b57ee7135"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1658512606907,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1658512606907,
+      "longValue" : 1658512606907,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1658511947854,
+      "longValue" : 1658511947854,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1658511018620,
+      "longValue" : 1658511018620,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1658512204586,
+      "longValue" : 1658512204586,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

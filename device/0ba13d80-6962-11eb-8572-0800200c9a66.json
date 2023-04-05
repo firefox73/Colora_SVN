@@ -2,7 +2,8 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+      "gateway" : true,
+      "description" : "Tesp per integrazione gateway Coing"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -18,21 +19,21 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "60def2a0-b42b-11ec-a28d-9bd74701e0b1"
+      "id" : "f8972380-5d43-11ed-96ab-9f893399452f"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "0ba13d80-6962-11eb-8572-0800200c9a66"
     },
-    "label" : null,
-    "name" : "Eastron",
+    "label" : "Name:testfox",
+    "name" : "CoingGateway",
     "softwareId" : null,
-    "type" : "meterEast"
+    "type" : "default1"
   },
   "credentials" : {
-    "credentialsId" : "MIyIen1lJy4Dd4pnIjCu",
+    "credentialsId" : "K2JhF8dBIJUz21cG8nHX",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -40,11 +41,35 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+      "id" : "0ba13d80-6962-11eb-8572-0800200c9a66"
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "efb7eb60-af82-11ec-b092-e18ec2adfc79"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "0ba13d80-6962-11eb-8572-0800200c9a66"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f890e6c0-af90-11ec-b092-e18ec2adfc79"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "0ba13d80-6962-11eb-8572-0800200c9a66"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0fafd180-af83-11ec-b092-e18ec2adfc79"
     },
     "type" : "Created",
     "typeGroup" : "COMMON"
@@ -55,7 +80,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1667844203707,
+      "lastUpdateTs" : 1656510491041,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -63,42 +88,34 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1667844203707,
-      "longValue" : 1667844203707,
+      "lastUpdateTs" : 1656510491041,
+      "longValue" : 1656510491041,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1667843574098,
-      "longValue" : 1667843573600,
+      "lastUpdateTs" : 1656509897666,
+      "longValue" : 1656509889314,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1667843535154,
-      "longValue" : 1667843535154,
+      "lastUpdateTs" : 1656509467249,
+      "longValue" : 1656509467247,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1667843874097,
-      "longValue" : 1667843874097,
+      "lastUpdateTs" : 1656509915159,
+      "longValue" : 1656509915159,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "n_phase",
-      "lastUpdateTs" : 1667759324093,
-      "longValue" : null,
-      "strValue" : "1"
-    } ]
+    "SHARED_SCOPE" : [ ]
   }
 }

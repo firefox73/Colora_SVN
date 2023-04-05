@@ -1,0 +1,34 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "512d4770-5a0d-11ed-96ab-9f893399452f"
+    },
+    "label" : null,
+    "name" : "newasset",
+    "type" : "provacreate asset"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "512d4770-5a0d-11ed-96ab-9f893399452f"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+    },
+    "type" : "DA_ASSET",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

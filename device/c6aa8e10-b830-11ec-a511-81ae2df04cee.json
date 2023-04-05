@@ -1,9 +1,7 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : {
-      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
-    },
+    "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
@@ -13,26 +11,26 @@
         "type" : "DEFAULT"
       },
       "transportConfiguration" : {
-        "type" : "DEFAULT"
+        "type" : "MQTT"
       }
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "60def2a0-b42b-11ec-a28d-9bd74701e0b1"
+      "id" : "3ab1a270-671b-11eb-8da8-17ab8e9f1567"
     },
     "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "c6aa8e10-b830-11ec-a511-81ae2df04cee"
     },
     "label" : null,
-    "name" : "Eastron",
+    "name" : "24D7EB51AF44_00",
     "softwareId" : null,
-    "type" : "meterEast"
+    "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "MIyIen1lJy4Dd4pnIjCu",
+    "credentialsId" : "ZeUO2FRZhGKk3S6ARGoj",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -40,11 +38,11 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "c6aa8e10-b830-11ec-a511-81ae2df04cee"
     },
     "type" : "Created",
     "typeGroup" : "COMMON"
@@ -55,7 +53,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1667844203707,
+      "lastUpdateTs" : 1656984748718,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -63,42 +61,34 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1667844203707,
-      "longValue" : 1667844203707,
+      "lastUpdateTs" : 1656984748718,
+      "longValue" : 1656984748717,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1667843574098,
-      "longValue" : 1667843573600,
+      "lastUpdateTs" : 1656984167988,
+      "longValue" : 1656984138276,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1667843535154,
-      "longValue" : 1667843535154,
+      "lastUpdateTs" : 1656982335991,
+      "longValue" : 1656982335991,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1667843874097,
-      "longValue" : 1667843874097,
+      "lastUpdateTs" : 1656984467996,
+      "longValue" : 1656984467996,
       "strValue" : null
     } ],
-    "SHARED_SCOPE" : [ {
-      "booleanValue" : null,
-      "doubleValue" : null,
-      "jsonValue" : null,
-      "key" : "n_phase",
-      "lastUpdateTs" : 1667759324093,
-      "longValue" : null,
-      "strValue" : "1"
-    } ]
+    "SHARED_SCOPE" : [ ]
   }
 }

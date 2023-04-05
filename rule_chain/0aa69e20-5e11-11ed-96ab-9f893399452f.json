@@ -1,0 +1,159 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "59b73fb1-5e11-11ed-96ab-9f893399452f"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "0aa69e20-5e11-11ed-96ab-9f893399452f"
+    },
+    "name" : "Uplink",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 2,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 2,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 4,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 562,
+        "layoutY" : 65
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "originatorName",
+          "type" : "originatorType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "59b6f190-5e11-11ed-96ab-9f893399452f"
+      },
+      "name" : "getDestOrig Debug",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Integration Device",
+        "layoutX" : 891,
+        "layoutY" : 151
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 60
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "59b718a0-5e11-11ed-96ab-9f893399452f"
+      },
+      "name" : "Uplink by RPC Call To",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 595,
+        "layoutY" : 154
+      },
+      "configuration" : {
+        "jsScript" : "//metadata.deviceName=\"SN-002\";\n//metadata.deviceType=\"Thermometer\";\nmetadata.oneway= \"true\";\nmsgType='RPC_CALL_FROM_SERVER_TO_DEVICE';\n//msgType='ATTRIBUTES_UPDATED';\nmsg.params=\"fromtodevice\"+msg.params;\n//metadata.requestId= \"61\";\n//metadata.sessionId = \"8c495ec5-d114-49ca-a1e9-6083c3c8c5ab\";\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "59b718a1-5e11-11ed-96ab-9f893399452f"
+      },
+      "name" : "RPC REQUEST TO DEVICE",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 292,
+        "layoutY" : 64
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Uplink",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "59b73fb0-5e11-11ed-96ab-9f893399452f"
+      },
+      "name" : "To GTW by Uplink relation",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Se DA Mi crea una relazione DA: INT_API_GTW_TEST a API_GTW_TEST e A: API_GTW_TEST a INT_API_GTW_TEST e fa anche il cambio originator in automatico e quindi preferito a change originator che in questo esempio lavora con A: verso INT_API_GTW_TEST ",
+        "layoutX" : 286,
+        "layoutY" : 152
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "INT_API_GTW_TEST",
+        "entityTypePattern" : "default1",
+        "relationType" : "Uplink",
+        "createEntityIfNotExists" : true,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "59b73fb1-5e11-11ed-96ab-9f893399452f"
+      },
+      "name" : "Uplink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

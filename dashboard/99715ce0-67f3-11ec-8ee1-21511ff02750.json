@@ -1,0 +1,126 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "40c15de7-e24b-c8d2-35c2-71f0a29e52aa" : {
+          "isSystemType" : true,
+          "bundleAlias" : "gateway_widgets",
+          "typeAlias" : "config_form_latest",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7.5,
+          "sizeY" : 9,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "290318c5-de2b-daa0-3282-4999ddd3c5b7",
+              "filterId" : null,
+              "dataKeys" : [ ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "gatewayTitle" : "Gateway configuration (Single device)"
+            },
+            "title" : "New Gateway configuration (Single device)"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "40c15de7-e24b-c8d2-35c2-71f0a29e52aa"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "gateway",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "40c15de7-e24b-c8d2-35c2-71f0a29e52aa" : {
+                  "sizeX" : 7,
+                  "sizeY" : 9,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "color" : "rgba(0,0,0,0.870588)",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "290318c5-de2b-daa0-3282-4999ddd3c5b7" : {
+          "id" : "290318c5-de2b-daa0-3282-4999ddd3c5b7",
+          "alias" : "CoingGateway",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "0ba13d80-6962-11eb-8572-0800200c9a66"
+            }
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "selectedTab" : 1,
+        "history" : {
+          "historyType" : 1,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1640127600000,
+            "endTimeMs" : 1640732399999
+          },
+          "interval" : 1209000
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "99715ce0-67f3-11ec-8ee1-21511ff02750"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "gateway",
+    "title" : "gateway"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

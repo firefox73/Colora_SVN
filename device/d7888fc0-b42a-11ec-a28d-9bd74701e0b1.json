@@ -2,7 +2,8 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "lastConnectedGateway" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+      "gateway" : false,
+      "description" : ""
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -24,15 +25,15 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "d7888fc0-b42a-11ec-a28d-9bd74701e0b1"
     },
-    "label" : null,
-    "name" : "Eastron",
+    "label" : "Eastron su Inverter ZCS",
+    "name" : "24D7EB51AF44_02",
     "softwareId" : null,
     "type" : "meterEast"
   },
   "credentials" : {
-    "credentialsId" : "MIyIen1lJy4Dd4pnIjCu",
+    "credentialsId" : "hP2g1QdvKtcMvDM88UDL",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -40,11 +41,11 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "ba3b5850-b35b-11ec-a28d-9bd74701e0b1"
+      "id" : "170fe4d0-b33c-11ec-a28d-9bd74701e0b1"
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "0f33b010-5e00-11ed-96ab-9f893399452f"
+      "id" : "d7888fc0-b42a-11ec-a28d-9bd74701e0b1"
     },
     "type" : "Created",
     "typeGroup" : "COMMON"
@@ -55,7 +56,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1667844203707,
+      "lastUpdateTs" : 1658511766899,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -63,32 +64,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1667844203707,
-      "longValue" : 1667844203707,
+      "lastUpdateTs" : 1658511766899,
+      "longValue" : 1658511766899,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1667843574098,
-      "longValue" : 1667843573600,
+      "lastUpdateTs" : 1658511124602,
+      "longValue" : 1658511108834,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1667843535154,
-      "longValue" : 1667843535154,
+      "lastUpdateTs" : 1658511099765,
+      "longValue" : 1658511099765,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1667843874097,
-      "longValue" : 1667843874097,
+      "lastUpdateTs" : 1658511424602,
+      "longValue" : 1658511424602,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ {
@@ -96,7 +97,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "n_phase",
-      "lastUpdateTs" : 1667759324093,
+      "lastUpdateTs" : 1649086762726,
       "longValue" : null,
       "strValue" : "1"
     } ]
